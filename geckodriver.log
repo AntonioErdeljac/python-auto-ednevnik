@@ -1,0 +1,720 @@
+1517214426237	geckodriver	INFO	geckodriver 0.19.1
+1517214426243	geckodriver	INFO	Listening on 127.0.0.1:64524
+1517214427381	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/tmp/rust_mozprofile.TDEkDSFbZIm9"
+1517214429252	Marionette	INFO	Enabled via --marionette
+2018-01-29 09:27:10.870 plugin-container[8249:183980] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-01-29 09:27:10.872 plugin-container[8249:183980] GetInputSourceEnabledPrefs user file path = /Users/antonioerdeljac/Library/Preferences/com.apple.HIToolbox.plist
+2018-01-29 09:27:10.872 plugin-container[8249:183980] GetInputSourceEnabledPrefs effective user id path = 0
+2018-01-29 09:27:10.873 plugin-container[8249:183980] GetInputSourceEnabledPrefs user pref content = <CFBasicHash 0x12029db80 [0x7fff90f5b980]>{type = immutable dict, count = 5,
+entries =>
+	0 : <CFString 0x7fff90eaf618 [0x7fff90f5b980]>{contents = "AppleSelectedInputSources"} = <CFArray 0x12029d900 [0x7fff90f5b980]>{type = immutable, count = 2, values = (
+	0 : <CFBasicHash 0x12029d880 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x1183d8370 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x1183d83d0 [0x7fff90f5b980]>{contents = "com.apple.PressAndHold"}
+}
+
+	1 : <CFBasicHash 0x12029d8c0 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+)}
+	1 : <CFString 0x7fff90e8fab8 [0x7fff90f5b980]>{contents = "AppleEnabledInputSources"} = <CFArray 0x11ffde760 [0x7fff90f5b980]>{type = immutable, count = 5, values = (
+	0 : <CFBasicHash 0x12029d940 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x1183d8460 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x1183d8490 [0x7fff90f5b980]>{contents = "com.apple.PressAndHold"}
+}
+
+	1 : <CFBasicHash 0x12029d9c0 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+	2 : <CFBasicHash 0x12029da00 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = Croatian
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0xffffffffffffbc37 [0x7fff90f5b980]>{value = -68, type = kCFNumberSInt64Type}
+}
+
+	3 : <CFBasicHash 0x12029da40 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x1183d84c0 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x1183d84f0 [0x7fff90f5b980]>{contents = "com.apple.KeyboardViewer"}
+}
+
+	4 : <CFBasicHash 0x12029da80 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x1183d8520 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x7fff90efa8d8 [0x7fff90f5b980]>{contents = "com.apple.CharacterPaletteIM"}
+}
+
+)}
+	2 : <CFString 0x1183d8310 [0x7fff90f5b980]>{contents = "AppleInputSourceHistory"} = <CFArray 0x12029db40 [0x7fff90f5b980]>{type = immutable, count = 2, values = (
+	0 : <CFBasicHash 0x12029dac0 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+	1 : <CFBasicHash 0x12029db00 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = Croatian
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0xffffffffffffbc37 [0x7fff90f5b980]>{value = -68, type = kCFNumberSInt64Type}
+}
+
+)}
+	5 : <CFString 0x7fff90f03b78 [0x7fff90f5b980]>{contents = "AppleCurrentKeyboardLayoutInputSourceID"} = <CFString 0x7fff90f21cf8 [0x7fff90f5b980]>{contents = "com.apple.keylayout.US"}
+	6 : <CFString 0x1183d8340 [0x7fff90f5b980]>{contents = "AppleDictationAutoEnable"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+1517214431755	Marionette	INFO	Listening on port 64535
+1517214431812	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517214431885	Marionette	DEBUG	Register listener.js for window 2147483649
+1517214431925	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517214433699	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517214433699	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1517214435514	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.jonessoda.com/contests/back2school"
+1517214437402	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.jonessoda.com/contests/back2school"
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1517214502629	geckodriver	INFO	geckodriver 0.19.1
+1517214502638	geckodriver	INFO	Listening on 127.0.0.1:64916
+1517214503780	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/tmp/rust_mozprofile.Mekgs5c2mQes"
+1517214504752	Marionette	INFO	Enabled via --marionette
+2018-01-29 09:28:26.030 plugin-container[8292:184939] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x743f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-01-29 09:28:26.032 plugin-container[8292:184939] GetInputSourceEnabledPrefs user file path = /Users/antonioerdeljac/Library/Preferences/com.apple.HIToolbox.plist
+2018-01-29 09:28:26.032 plugin-container[8292:184939] GetInputSourceEnabledPrefs effective user id path = 0
+2018-01-29 09:28:26.035 plugin-container[8292:184939] GetInputSourceEnabledPrefs user pref content = <CFBasicHash 0x11fd45c80 [0x7fff90f5b980]>{type = immutable dict, count = 5,
+entries =>
+	0 : <CFString 0x7fff90eaf618 [0x7fff90f5b980]>{contents = "AppleSelectedInputSources"} = <CFArray 0x11fad4ec0 [0x7fff90f5b980]>{type = immutable, count = 2, values = (
+	0 : <CFBasicHash 0x11fad4e00 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x117fe8be0 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x117fe8c10 [0x7fff90f5b980]>{contents = "com.apple.PressAndHold"}
+}
+
+	1 : <CFBasicHash 0x11fad4e80 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+)}
+	1 : <CFString 0x7fff90e8fab8 [0x7fff90f5b980]>{contents = "AppleEnabledInputSources"} = <CFArray 0x11a37c220 [0x7fff90f5b980]>{type = immutable, count = 5, values = (
+	0 : <CFBasicHash 0x11fad4f00 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x117fe8c40 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x117fe8cd0 [0x7fff90f5b980]>{contents = "com.apple.PressAndHold"}
+}
+
+	1 : <CFBasicHash 0x11fad4f80 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+	2 : <CFBasicHash 0x11fad4fc0 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = Croatian
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0xffffffffffffbc37 [0x7fff90f5b980]>{value = -68, type = kCFNumberSInt64Type}
+}
+
+	3 : <CFBasicHash 0x11fd45b00 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x117fe8d00 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x117fe8d30 [0x7fff90f5b980]>{contents = "com.apple.KeyboardViewer"}
+}
+
+	4 : <CFBasicHash 0x11fd45b40 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x117fe8d60 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x7fff90efa8d8 [0x7fff90f5b980]>{contents = "com.apple.CharacterPaletteIM"}
+}
+
+)}
+	2 : <CFString 0x117fe8b80 [0x7fff90f5b980]>{contents = "AppleInputSourceHistory"} = <CFArray 0x11fd45c40 [0x7fff90f5b980]>{type = immutable, count = 2, values = (
+	0 : <CFBasicHash 0x11fd45b80 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+	1 : <CFBasicHash 0x11fd45c00 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = Croatian
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0xffffffffffffbc37 [0x7fff90f5b980]>{value = -68, type = kCFNumberSInt64Type}
+}
+
+)}
+	5 : <CFString 0x7fff90f03b78 [0x7fff90f5b980]>{contents = "AppleCurrentKeyboardLayoutInputSourceID"} = <CFString 0x7fff90f21cf8 [0x7fff90f5b980]>{contents = "com.apple.keylayout.US"}
+	6 : <CFString 0x117fe8bb0 [0x7fff90f5b980]>{contents = "AppleDictationAutoEnable"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+1517214506872	Marionette	INFO	Listening on port 64933
+1517214506970	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517214507054	Marionette	DEBUG	Register listener.js for window 2147483649
+1517214507089	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517214507145	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517214507152	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517214507152	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517214507364	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=dnsNotFound&u=http%3A//www.ocjene.skole.hr/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.ocjene.skole.hr."
+1517214516690	geckodriver	INFO	geckodriver 0.19.1
+1517214516696	geckodriver	INFO	Listening on 127.0.0.1:65061
+1517214517820	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/tmp/rust_mozprofile.RJUZ5t90y2U1"
+1517214518712	Marionette	INFO	Enabled via --marionette
+2018-01-29 09:28:39.852 plugin-container[8315:185275] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8807, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-01-29 09:28:39.855 plugin-container[8315:185275] GetInputSourceEnabledPrefs user file path = /Users/antonioerdeljac/Library/Preferences/com.apple.HIToolbox.plist
+2018-01-29 09:28:39.855 plugin-container[8315:185275] GetInputSourceEnabledPrefs effective user id path = 0
+2018-01-29 09:28:39.859 plugin-container[8315:185275] GetInputSourceEnabledPrefs user pref content = <CFBasicHash 0x11e6cc8c0 [0x7fff90f5b980]>{type = immutable dict, count = 5,
+entries =>
+	0 : <CFString 0x7fff90eaf618 [0x7fff90f5b980]>{contents = "AppleSelectedInputSources"} = <CFArray 0x11e6cc640 [0x7fff90f5b980]>{type = immutable, count = 2, values = (
+	0 : <CFBasicHash 0x11e6cc580 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x11e6c5ee0 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x11e6c5f10 [0x7fff90f5b980]>{contents = "com.apple.PressAndHold"}
+}
+
+	1 : <CFBasicHash 0x11e6cc600 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+)}
+	1 : <CFString 0x7fff90e8fab8 [0x7fff90f5b980]>{contents = "AppleEnabledInputSources"} = <CFArray 0x11e6c7460 [0x7fff90f5b980]>{type = immutable, count = 5, values = (
+	0 : <CFBasicHash 0x11e6cc680 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x11e6c5f70 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x11e6f9df0 [0x7fff90f5b980]>{contents = "com.apple.PressAndHold"}
+}
+
+	1 : <CFBasicHash 0x11e6cc700 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+	2 : <CFBasicHash 0x11e6cc740 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = Croatian
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0xffffffffffffbc37 [0x7fff90f5b980]>{value = -68, type = kCFNumberSInt64Type}
+}
+
+	3 : <CFBasicHash 0x11e6cc780 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x11e9d5f70 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x11e9d5fa0 [0x7fff90f5b980]>{contents = "com.apple.KeyboardViewer"}
+}
+
+	4 : <CFBasicHash 0x11e6cc7c0 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x11e9d5fd0 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x7fff90efa8d8 [0x7fff90f5b980]>{contents = "com.apple.CharacterPaletteIM"}
+}
+
+)}
+	2 : <CFString 0x11e6c5e80 [0x7fff90f5b980]>{contents = "AppleInputSourceHistory"} = <CFArray 0x11e6cc880 [0x7fff90f5b980]>{type = immutable, count = 2, values = (
+	0 : <CFBasicHash 0x11e6cc800 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+	1 : <CFBasicHash 0x11e6cc840 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = Croatian
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0xffffffffffffbc37 [0x7fff90f5b980]>{value = -68, type = kCFNumberSInt64Type}
+}
+
+)}
+	5 : <CFString 0x7fff90f03b78 [0x7fff90f5b980]>{contents = "AppleCurrentKeyboardLayoutInputSourceID"} = <CFString 0x7fff90f21cf8 [0x7fff90f5b980]>{contents = "com.apple.keylayout.US"}
+	6 : <CFString 0x11e6c5eb0 [0x7fff90f5b980]>{contents = "AppleDictationAutoEnable"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+1517214520773	Marionette	INFO	Listening on port 65076
+1517214520875	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517214520952	Marionette	DEBUG	Register listener.js for window 2147483649
+1517214520982	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517214521309	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517214521309	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517214521517	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ocjene.skole.hr/pocetna/prijava"
+1517214521552	Marionette	DEBUG	Received DOM event "pageshow" for "https://ocjene.skole.hr/pocetna/prijava"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1517214568577	geckodriver	INFO	geckodriver 0.19.1
+1517214568583	geckodriver	INFO	Listening on 127.0.0.1:65373
+1517214569676	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/tmp/rust_mozprofile.1KeDqJzuI7Vm"
+1517214570506	Marionette	INFO	Enabled via --marionette
+2018-01-29 09:29:31.554 plugin-container[8365:186246] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7003, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-01-29 09:29:31.555 plugin-container[8365:186246] GetInputSourceEnabledPrefs user file path = /Users/antonioerdeljac/Library/Preferences/com.apple.HIToolbox.plist
+2018-01-29 09:29:31.555 plugin-container[8365:186246] GetInputSourceEnabledPrefs effective user id path = 0
+2018-01-29 09:29:31.559 plugin-container[8365:186246] GetInputSourceEnabledPrefs user pref content = <CFBasicHash 0x11914e880 [0x7fff90f5b980]>{type = immutable dict, count = 5,
+entries =>
+	0 : <CFString 0x7fff90eaf618 [0x7fff90f5b980]>{contents = "AppleSelectedInputSources"} = <CFArray 0x11914e600 [0x7fff90f5b980]>{type = immutable, count = 2, values = (
+	0 : <CFBasicHash 0x11914e580 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x119145d60 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x119145d90 [0x7fff90f5b980]>{contents = "com.apple.PressAndHold"}
+}
+
+	1 : <CFBasicHash 0x11914e5c0 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+)}
+	1 : <CFString 0x7fff90e8fab8 [0x7fff90f5b980]>{contents = "AppleEnabledInputSources"} = <CFArray 0x1117b3760 [0x7fff90f5b980]>{type = immutable, count = 5, values = (
+	0 : <CFBasicHash 0x11914e640 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x119145df0 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x119145e80 [0x7fff90f5b980]>{contents = "com.apple.PressAndHold"}
+}
+
+	1 : <CFBasicHash 0x11914e6c0 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+	2 : <CFBasicHash 0x11914e700 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = Croatian
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0xffffffffffffbc37 [0x7fff90f5b980]>{value = -68, type = kCFNumberSInt64Type}
+}
+
+	3 : <CFBasicHash 0x11914e740 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x119145ee0 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x119145f10 [0x7fff90f5b980]>{contents = "com.apple.KeyboardViewer"}
+}
+
+	4 : <CFBasicHash 0x11914e780 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x119145f40 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x7fff90efa8d8 [0x7fff90f5b980]>{contents = "com.apple.CharacterPaletteIM"}
+}
+
+)}
+	2 : <CFString 0x119145d00 [0x7fff90f5b980]>{contents = "AppleInputSourceHistory"} = <CFArray 0x11914e840 [0x7fff90f5b980]>{type = immutable, count = 2, values = (
+	0 : <CFBasicHash 0x11914e7c0 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+	1 : <CFBasicHash 0x11914e800 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = Croatian
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0xffffffffffffbc37 [0x7fff90f5b980]>{value = -68, type = kCFNumberSInt64Type}
+}
+
+)}
+	5 : <CFString 0x7fff90f03b78 [0x7fff90f5b980]>{contents = "AppleCurrentKeyboardLayoutInputSourceID"} = <CFString 0x7fff90f21cf8 [0x7fff90f5b980]>{contents = "com.apple.keylayout.US"}
+	6 : <CFString 0x119145d30 [0x7fff90f5b980]>{contents = "AppleDictationAutoEnable"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+1517214572046	Marionette	INFO	Listening on port 65388
+1517214572091	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517214572165	Marionette	DEBUG	Register listener.js for window 2147483649
+1517214572193	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517214572473	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517214572473	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517214572683	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ocjene.skole.hr/pocetna/prijava"
+1517214572714	Marionette	DEBUG	Received DOM event "pageshow" for "https://ocjene.skole.hr/pocetna/prijava"
+1517214639066	geckodriver	INFO	geckodriver 0.19.1
+1517214639072	geckodriver	INFO	Listening on 127.0.0.1:49365
+1517214640175	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/tmp/rust_mozprofile.VeWn6NISHyFx"
+1517214640863	Marionette	INFO	Enabled via --marionette
+2018-01-29 09:30:41.966 plugin-container[8399:187467] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x853f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-01-29 09:30:41.972 plugin-container[8399:187467] GetInputSourceEnabledPrefs user file path = /Users/antonioerdeljac/Library/Preferences/com.apple.HIToolbox.plist
+2018-01-29 09:30:41.972 plugin-container[8399:187467] GetInputSourceEnabledPrefs effective user id path = 0
+2018-01-29 09:30:41.974 plugin-container[8399:187467] GetInputSourceEnabledPrefs user pref content = <CFBasicHash 0x11e6c2180 [0x7fff90f5b980]>{type = immutable dict, count = 5,
+entries =>
+	0 : <CFString 0x7fff90eaf618 [0x7fff90f5b980]>{contents = "AppleSelectedInputSources"} = <CFArray 0x11eb50e40 [0x7fff90f5b980]>{type = immutable, count = 2, values = (
+	0 : <CFBasicHash 0x11eb50d40 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x1104e0370 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x1104e03a0 [0x7fff90f5b980]>{contents = "com.apple.PressAndHold"}
+}
+
+	1 : <CFBasicHash 0x11eb50e00 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+)}
+	1 : <CFString 0x7fff90e8fab8 [0x7fff90f5b980]>{contents = "AppleEnabledInputSources"} = <CFArray 0x1104dd1c0 [0x7fff90f5b980]>{type = immutable, count = 5, values = (
+	0 : <CFBasicHash 0x11eb50e80 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x1104e0400 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x1104e0430 [0x7fff90f5b980]>{contents = "com.apple.PressAndHold"}
+}
+
+	1 : <CFBasicHash 0x11eb50f00 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+	2 : <CFBasicHash 0x11eb50f40 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = Croatian
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0xffffffffffffbc37 [0x7fff90f5b980]>{value = -68, type = kCFNumberSInt64Type}
+}
+
+	3 : <CFBasicHash 0x11e6c2040 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x1104e0460 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x1104e0490 [0x7fff90f5b980]>{contents = "com.apple.KeyboardViewer"}
+}
+
+	4 : <CFBasicHash 0x11e6c2080 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x1104e04f0 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x7fff90efa8d8 [0x7fff90f5b980]>{contents = "com.apple.CharacterPaletteIM"}
+}
+
+)}
+	2 : <CFString 0x1104e0310 [0x7fff90f5b980]>{contents = "AppleInputSourceHistory"} = <CFArray 0x11e6c2140 [0x7fff90f5b980]>{type = immutable, count = 2, values = (
+	0 : <CFBasicHash 0x11e6c20c0 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+	1 : <CFBasicHash 0x11e6c2100 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = Croatian
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0xffffffffffffbc37 [0x7fff90f5b980]>{value = -68, type = kCFNumberSInt64Type}
+}
+
+)}
+	5 : <CFString 0x7fff90f03b78 [0x7fff90f5b980]>{contents = "AppleCurrentKeyboardLayoutInputSourceID"} = <CFString 0x7fff90f21cf8 [0x7fff90f5b980]>{contents = "com.apple.keylayout.US"}
+	6 : <CFString 0x1104e0340 [0x7fff90f5b980]>{contents = "AppleDictationAutoEnable"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+1517214642607	Marionette	INFO	Listening on port 49380
+1517214642696	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517214642777	Marionette	DEBUG	Register listener.js for window 2147483649
+1517214642820	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517214643096	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517214643097	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517214643315	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ocjene.skole.hr/pocetna/prijava"
+1517214643320	Marionette	DEBUG	Received DOM event "pageshow" for "https://ocjene.skole.hr/pocetna/prijava"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1517214668764	geckodriver	INFO	geckodriver 0.19.1
+1517214668770	geckodriver	INFO	Listening on 127.0.0.1:49570
+1517214669875	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/tmp/rust_mozprofile.OPa8r4AQb0DH"
+1517214670624	Marionette	INFO	Enabled via --marionette
+2018-01-29 09:31:11.575 plugin-container[8421:187933] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x823f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-01-29 09:31:11.577 plugin-container[8421:187933] GetInputSourceEnabledPrefs user file path = /Users/antonioerdeljac/Library/Preferences/com.apple.HIToolbox.plist
+2018-01-29 09:31:11.577 plugin-container[8421:187933] GetInputSourceEnabledPrefs effective user id path = 0
+2018-01-29 09:31:11.578 plugin-container[8421:187933] GetInputSourceEnabledPrefs user pref content = <CFBasicHash 0x116812800 [0x7fff90f5b980]>{type = immutable dict, count = 5,
+entries =>
+	0 : <CFString 0x7fff90eaf618 [0x7fff90f5b980]>{contents = "AppleSelectedInputSources"} = <CFArray 0x116812540 [0x7fff90f5b980]>{type = immutable, count = 2, values = (
+	0 : <CFBasicHash 0x116812480 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x1166c3370 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x1166c33d0 [0x7fff90f5b980]>{contents = "com.apple.PressAndHold"}
+}
+
+	1 : <CFBasicHash 0x116812500 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+)}
+	1 : <CFString 0x7fff90e8fab8 [0x7fff90f5b980]>{contents = "AppleEnabledInputSources"} = <CFArray 0x1166ca5e0 [0x7fff90f5b980]>{type = immutable, count = 5, values = (
+	0 : <CFBasicHash 0x116812580 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x1166c3430 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x1166c3460 [0x7fff90f5b980]>{contents = "com.apple.PressAndHold"}
+}
+
+	1 : <CFBasicHash 0x116812640 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+	2 : <CFBasicHash 0x116812680 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = Croatian
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0xffffffffffffbc37 [0x7fff90f5b980]>{value = -68, type = kCFNumberSInt64Type}
+}
+
+	3 : <CFBasicHash 0x1168126c0 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x1166c3490 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x1166c34c0 [0x7fff90f5b980]>{contents = "com.apple.KeyboardViewer"}
+}
+
+	4 : <CFBasicHash 0x116812700 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x1166c34f0 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x7fff90efa8d8 [0x7fff90f5b980]>{contents = "com.apple.CharacterPaletteIM"}
+}
+
+)}
+	2 : <CFString 0x1166c3310 [0x7fff90f5b980]>{contents = "AppleInputSourceHistory"} = <CFArray 0x1168127c0 [0x7fff90f5b980]>{type = immutable, count = 2, values = (
+	0 : <CFBasicHash 0x116812740 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+	1 : <CFBasicHash 0x116812780 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = Croatian
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0xffffffffffffbc37 [0x7fff90f5b980]>{value = -68, type = kCFNumberSInt64Type}
+}
+
+)}
+	5 : <CFString 0x7fff90f03b78 [0x7fff90f5b980]>{contents = "AppleCurrentKeyboardLayoutInputSourceID"} = <CFString 0x7fff90f21cf8 [0x7fff90f5b980]>{contents = "com.apple.keylayout.US"}
+	6 : <CFString 0x1166c3340 [0x7fff90f5b980]>{contents = "AppleDictationAutoEnable"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+1517214672063	Marionette	INFO	Listening on port 49586
+1517214672161	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517214672231	Marionette	DEBUG	Register listener.js for window 2147483649
+1517214672266	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517214672479	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517214672480	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517214672662	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ocjene.skole.hr/pocetna/prijava"
+1517214672667	Marionette	DEBUG	Received DOM event "pageshow" for "https://ocjene.skole.hr/pocetna/prijava"
+1517214672788	Marionette	DEBUG	Received DOM event "beforeunload" for "https://ocjene.skole.hr/pocetna/prijava"
+1517214672935	Marionette	DEBUG	Received DOM event "pagehide" for "https://ocjene.skole.hr/pocetna/prijava"
+1517214672935	Marionette	DEBUG	Received DOM event "unload" for "https://ocjene.skole.hr/pocetna/prijava"
+1517214673007	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ocjene.skole.hr/razredi/odabir"
+1517214673447	Marionette	DEBUG	Received DOM event "pageshow" for "https://ocjene.skole.hr/razredi/odabir"
+1517214768891	geckodriver	INFO	geckodriver 0.19.1
+1517214768904	geckodriver	INFO	Listening on 127.0.0.1:50077
+1517214769991	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/tmp/rust_mozprofile.hutayRyfGwMF"
+1517214770814	Marionette	INFO	Enabled via --marionette
+2018-01-29 09:32:51.821 plugin-container[8455:188918] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8943, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-01-29 09:32:51.824 plugin-container[8455:188918] GetInputSourceEnabledPrefs user file path = /Users/antonioerdeljac/Library/Preferences/com.apple.HIToolbox.plist
+2018-01-29 09:32:51.824 plugin-container[8455:188918] GetInputSourceEnabledPrefs effective user id path = 0
+2018-01-29 09:32:51.827 plugin-container[8455:188918] GetInputSourceEnabledPrefs user pref content = <CFBasicHash 0x11bd46ec0 [0x7fff90f5b980]>{type = immutable dict, count = 5,
+entries =>
+	0 : <CFString 0x7fff90eaf618 [0x7fff90f5b980]>{contents = "AppleSelectedInputSources"} = <CFArray 0x11bd46c00 [0x7fff90f5b980]>{type = immutable, count = 2, values = (
+	0 : <CFBasicHash 0x11bd46b40 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x1142afbb0 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x1142afbe0 [0x7fff90f5b980]>{contents = "com.apple.PressAndHold"}
+}
+
+	1 : <CFBasicHash 0x11bd46b80 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+)}
+	1 : <CFString 0x7fff90e8fab8 [0x7fff90f5b980]>{contents = "AppleEnabledInputSources"} = <CFArray 0x11bb99040 [0x7fff90f5b980]>{type = immutable, count = 5, values = (
+	0 : <CFBasicHash 0x11bd46cc0 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x1142afcd0 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x1142afd00 [0x7fff90f5b980]>{contents = "com.apple.PressAndHold"}
+}
+
+	1 : <CFBasicHash 0x11bd46d00 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+	2 : <CFBasicHash 0x11bd46d40 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = Croatian
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0xffffffffffffbc37 [0x7fff90f5b980]>{value = -68, type = kCFNumberSInt64Type}
+}
+
+	3 : <CFBasicHash 0x11bd46d80 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x1142afd30 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x1142afd60 [0x7fff90f5b980]>{contents = "com.apple.KeyboardViewer"}
+}
+
+	4 : <CFBasicHash 0x11bd46dc0 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x1142afd90 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x7fff90efa8d8 [0x7fff90f5b980]>{contents = "com.apple.CharacterPaletteIM"}
+}
+
+)}
+	2 : <CFString 0x1142afb20 [0x7fff90f5b980]>{contents = "AppleInputSourceHistory"} = <CFArray 0x11bd46e80 [0x7fff90f5b980]>{type = immutable, count = 2, values = (
+	0 : <CFBasicHash 0x11bd46e00 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+	1 : <CFBasicHash 0x11bd46e40 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = Croatian
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0xffffffffffffbc37 [0x7fff90f5b980]>{value = -68, type = kCFNumberSInt64Type}
+}
+
+)}
+	5 : <CFString 0x7fff90f03b78 [0x7fff90f5b980]>{contents = "AppleCurrentKeyboardLayoutInputSourceID"} = <CFString 0x7fff90f21cf8 [0x7fff90f5b980]>{contents = "com.apple.keylayout.US"}
+	6 : <CFString 0x1142afb80 [0x7fff90f5b980]>{contents = "AppleDictationAutoEnable"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+1517214772348	Marionette	INFO	Listening on port 50092
+1517214772371	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517214772458	Marionette	DEBUG	Register listener.js for window 2147483649
+1517214772488	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517214772993	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517214772993	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517214773193	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ocjene.skole.hr/pocetna/prijava"
+1517214773197	Marionette	DEBUG	Received DOM event "pageshow" for "https://ocjene.skole.hr/pocetna/prijava"
+1517214773338	Marionette	DEBUG	Received DOM event "beforeunload" for "https://ocjene.skole.hr/pocetna/prijava"
+1517214773506	Marionette	DEBUG	Received DOM event "pagehide" for "https://ocjene.skole.hr/pocetna/prijava"
+1517214773506	Marionette	DEBUG	Received DOM event "unload" for "https://ocjene.skole.hr/pocetna/prijava"
+1517214773579	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ocjene.skole.hr/razredi/odabir"
+1517214774000	Marionette	DEBUG	Received DOM event "pageshow" for "https://ocjene.skole.hr/razredi/odabir"
+1517222205367	geckodriver	INFO	geckodriver 0.19.1
+1517222205376	geckodriver	INFO	Listening on 127.0.0.1:52230
+1517222206469	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/tmp/rust_mozprofile.yiPCvWAi7vy9"
+1517222207279	Marionette	INFO	Enabled via --marionette
+2018-01-29 11:36:48.302 plugin-container[8539:194958] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x743b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-01-29 11:36:48.303 plugin-container[8539:194958] GetInputSourceEnabledPrefs user file path = /Users/antonioerdeljac/Library/Preferences/com.apple.HIToolbox.plist
+2018-01-29 11:36:48.303 plugin-container[8539:194958] GetInputSourceEnabledPrefs effective user id path = 0
+2018-01-29 11:36:48.308 plugin-container[8539:194958] GetInputSourceEnabledPrefs user pref content = <CFBasicHash 0x117bab8c0 [0x7fff90f5b980]>{type = immutable dict, count = 6,
+entries =>
+	0 : <CFString 0x7fff90eaf618 [0x7fff90f5b980]>{contents = "AppleSelectedInputSources"} = <CFArray 0x117bab5c0 [0x7fff90f5b980]>{type = immutable, count = 2, values = (
+	0 : <CFBasicHash 0x117bab540 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x117ba1e20 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x117ba1e80 [0x7fff90f5b980]>{contents = "com.apple.PressAndHold"}
+}
+
+	1 : <CFBasicHash 0x117bab580 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+)}
+	1 : <CFString 0x7fff90e8fab8 [0x7fff90f5b980]>{contents = "AppleEnabledInputSources"} = <CFArray 0x1173cd640 [0x7fff90f5b980]>{type = immutable, count = 5, values = (
+	0 : <CFBasicHash 0x117bab600 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x117ba1eb0 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x117ba1ee0 [0x7fff90f5b980]>{contents = "com.apple.PressAndHold"}
+}
+
+	1 : <CFBasicHash 0x117bab6c0 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+	2 : <CFBasicHash 0x117bab700 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = Croatian
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0xffffffffffffbc37 [0x7fff90f5b980]>{value = -68, type = kCFNumberSInt64Type}
+}
+
+	3 : <CFBasicHash 0x117bab740 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x117ba1f10 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x117ba1f40 [0x7fff90f5b980]>{contents = "com.apple.KeyboardViewer"}
+}
+
+	4 : <CFBasicHash 0x117bab780 [0x7fff90f5b980]>{type = immutable dict, count = 2,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x117ba1f70 [0x7fff90f5b980]>{contents = "Non Keyboard Input Method"}
+	1 : Bundle ID = <CFString 0x7fff90efa8d8 [0x7fff90f5b980]>{contents = "com.apple.CharacterPaletteIM"}
+}
+
+)}
+	2 : <CFString 0x117ba1d00 [0x7fff90f5b980]>{contents = "AppleInputSourceHistory"} = <CFArray 0x117bab840 [0x7fff90f5b980]>{type = immutable, count = 2, values = (
+	0 : <CFBasicHash 0x117bab7c0 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+	1 : <CFBasicHash 0x117bab800 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = Croatian
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0xffffffffffffbc37 [0x7fff90f5b980]>{value = -68, type = kCFNumberSInt64Type}
+}
+
+)}
+	3 : <CFString 0x117ba1d30 [0x7fff90f5b980]>{contents = "AppleSavedCurrentInputSource"} = <CFBasicHash 0x117bab880 [0x7fff90f5b980]>{type = immutable dict, count = 3,
+entries =>
+	0 : <CFString 0x7fff90e8d218 [0x7fff90f5b980]>{contents = "InputSourceKind"} = <CFString 0x7fff90ed4098 [0x7fff90f5b980]>{contents = "Keyboard Layout"}
+	1 : <CFString 0x7fff90e87d78 [0x7fff90f5b980]>{contents = "KeyboardLayout Name"} = U.S.
+	2 : <CFString 0x7fff90ebfb78 [0x7fff90f5b980]>{contents = "KeyboardLayout ID"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+
+	5 : <CFString 0x7fff90f03b78 [0x7fff90f5b980]>{contents = "AppleCurrentKeyboardLayoutInputSourceID"} = <CFString 0x7fff90f21cf8 [0x7fff90f5b980]>{contents = "com.apple.keylayout.US"}
+	6 : <CFString 0x117ba1d60 [0x7fff90f5b980]>{contents = "AppleDictationAutoEnable"} = <CFNumber 0x37 [0x7fff90f5b980]>{value = +0, type = kCFNumberSInt64Type}
+}
+1517222208813	Marionette	INFO	Listening on port 52245
+1517222208877	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517222208951	Marionette	DEBUG	Register listener.js for window 2147483649
+1517222208980	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517222209652	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517222209652	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517222210082	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ocjene.skole.hr/pocetna/prijava"
+1517222210084	Marionette	DEBUG	Received DOM event "pageshow" for "https://ocjene.skole.hr/pocetna/prijava"
+1517222210215	Marionette	DEBUG	Received DOM event "beforeunload" for "https://ocjene.skole.hr/pocetna/prijava"
+1517222210675	Marionette	DEBUG	Received DOM event "pagehide" for "https://ocjene.skole.hr/pocetna/prijava"
+1517222210676	Marionette	DEBUG	Received DOM event "unload" for "https://ocjene.skole.hr/pocetna/prijava"
+1517222210744	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ocjene.skole.hr/razredi/odabir"
+1517222211699	Marionette	DEBUG	Received DOM event "pageshow" for "https://ocjene.skole.hr/razredi/odabir"
+1517222211725	Marionette	DEBUG	Received DOM event "beforeunload" for "https://ocjene.skole.hr/razredi/odabir"
+1517222211895	Marionette	DEBUG	Received DOM event "pagehide" for "https://ocjene.skole.hr/razredi/odabir"
+1517222211896	Marionette	DEBUG	Received DOM event "unload" for "https://ocjene.skole.hr/razredi/odabir"
+1517222211963	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ocjene.skole.hr/pregled/predmeti/1395529310"
+1517222212073	Marionette	DEBUG	Received DOM event "pageshow" for "https://ocjene.skole.hr/pregled/predmeti/1395529310"
